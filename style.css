@@ -1,0 +1,67 @@
+h1 {
+    font-family: PlatinumSign;
+    text-shadow: 2px 2px black;
+}
+h3 {
+    text-shadow: 2px 2px black;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('assets/gedungitpln.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: lightgray;
+    padding: 20px;
+}
+
+form {
+    background-color: #222;
+    padding: 20px;
+    padding-right: 40px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="file"] {
+    padding: 5px;
+    background-color: #444;
+    color: white;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: blue;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+@font-face {
+    font-family: PlatinumSign;
+    src: url('fonts/platinum_sign/Platinum Sign Over.ttf');
+}

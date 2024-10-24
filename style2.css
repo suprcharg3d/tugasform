@@ -1,0 +1,19 @@
+h1 {
+    font-family: PlatinumSign;
+}
+h3 {
+    font-family: AldoTheApache;
+}
+#logo {
+    float: left;
+    width: 350px;
+}
+
+@font-face {
+    font-family: PlatinumSign;
+    src: url('fonts/platinum_sign/Platinum Sign Over.ttf');
+}
+@font-face {
+    font-family: AldoTheApache;
+    src: url('fonts/AldotheApache.ttf');
+}
